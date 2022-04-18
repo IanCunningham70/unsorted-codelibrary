@@ -1,0 +1,143 @@
+;---------------------------------------
+TABLO    .BYTE <CHAR32,<CHARA,<CHARB
+         .BYTE <CHARC,<CHARD,<CHARE
+         .BYTE <CHARF,<CHARG,<CHARH
+         .BYTE <CHARI,<CHARJ,<CHARK
+         .BYTE <CHARL,<CHARM,<CHARN
+         .BYTE <CHARO,<CHARP,<CHARQ
+         .BYTE <CHARR,<CHARS,<CHART
+         .BYTE <CHARU,<CHARV,<CHARW
+         .BYTE <CHARX,<CHARY,<CHARZ
+         ;     [       \       ]
+         .BYTE <CHAR27,<CHAR28,<CHAR29
+         ;     ^       _       SPACE
+         .BYTE <CHAR30,<CHAR31,<CHAR32
+         ;     !       "       #
+         .BYTE <CHAR33,<CHAR34,<CHAR35
+         ;     $       %       &
+         .BYTE <CHAR36,<CHAR37,<CHAR38
+         ;     '       (       )
+         .BYTE <CHAR39,<CHAR40,<CHAR41
+         ;     *       +       ,
+         .BYTE <CHAR42,<CHAR43,<CHAR44
+         ;     -       .       /
+         .BYTE <CHAR45,<CHAR46,<CHAR47
+         ;     0       1       2
+         .BYTE <CHAR48,<CHAR49,<CHAR50
+         ;     3       4       5
+         .BYTE <CHAR51,<CHAR52,<CHAR53
+         ;     6       7       8
+         .BYTE <CHAR54,<CHAR55,<CHAR56
+         ;     9
+         .BYTE <CHAR57
+         ;     :       ;       <
+         .BYTE <CHAR58,<CHAR59,<CHAR60
+         ;     =       >       ?
+         .BYTE <CHAR61,<CHAR62,<CHAR63
+
+TABHI    .BYTE >CHAR32,>CHARA,>CHARB
+         .BYTE >CHARC,>CHARD,>CHARE
+         .BYTE >CHARF,>CHARG,>CHARH
+         .BYTE >CHARI,>CHARJ,>CHARK
+         .BYTE >CHARL,>CHARM,>CHARN
+         .BYTE >CHARO,>CHARP,>CHARQ
+         .BYTE >CHARR,>CHARS,>CHART
+         .BYTE >CHARU,>CHARV,>CHARW
+         .BYTE >CHARX,>CHARY,>CHARZ
+         ;     [       \       ]
+         .BYTE >CHAR27,>CHAR28,>CHAR29
+         ;     ^       _       SPACE
+         .BYTE >CHAR30,>CHAR31,>CHAR32
+         ;     !       "       #
+         .BYTE >CHAR33,>CHAR34,>CHAR35
+         ;     $       %       &
+         .BYTE >CHAR36,>CHAR37,>CHAR38
+         ;     '       (       )
+         .BYTE >CHAR39,>CHAR40,>CHAR41
+         ;     *       +       ,
+         .BYTE >CHAR42,>CHAR43,>CHAR44
+         ;     -       .       /
+         .BYTE >CHAR45,>CHAR46,>CHAR47
+         ;     0       1       2
+         .BYTE >CHAR48,>CHAR49,>CHAR50
+         ;     3       4       5
+         .BYTE >CHAR51,>CHAR52,>CHAR53
+         ;     6       7       8
+         .BYTE >CHAR54,>CHAR55,>CHAR56
+         ;     9
+         .BYTE >CHAR57
+         ;     :       ;       <
+         .BYTE >CHAR58,>CHAR59,>CHAR60
+         ;     =       >       ?
+         .BYTE >CHAR61,>CHAR62,>CHAR63
+
+WIDTHS   ;     @ A B C D E F G H I J K
+         .BYTE 0,4,4,4,4,4,4,4,4,4,4,4
+         ;     M N O P Q R S T U V W X
+         .BYTE 4,4,4,4,4,4,4,4,4,4,4,4
+         ;     Y Z [ \ ] ^ _   ! " # $
+         .BYTE 4,4,4,4,4,4,4,4,4,4,4,4
+         ;     % & ' ( ) * + , - . / 0
+         .BYTE 4,4,4,4,4,4,4,4,4,4,4,4
+         ;     1 2 3 4 5 6 7 8 9 : ; <
+         .BYTE 4,4,4,4,4,4,4,4,4,4,4,4
+         ;     = > ?
+         .BYTE 4,4,4
+
+CHARA    = $4000
+CHARB    = CHARA+$04
+CHARC    = CHARB+$04
+CHARD    = CHARB+$04
+CHARE    = CHARB+$04
+CHARF    = CHARB+$04
+CHARG    = CHARB+$04
+CHARH    = CHARB+$04
+CHARI    = CHARB+$04
+CHARJ    = CHARB+$04
+CHARK    = CHARB+$04
+CHARL    = CHARB+$04
+CHARM    = CHARB+$04
+CHARN    = CHARB+$04
+CHARO    = CHARB+$04
+CHARP    = CHARB+$04
+CHARQ    = CHARB+$04
+CHARR    = CHARB+$04
+CHARS    = CHARB+$04
+CHART    = CHARB+$04
+CHARU    = CHARB+$04
+CHARV    = CHARB+$04
+CHARW    = CHARB+$04
+CHARX    = CHARB+$04
+CHARY    = CHARB+$04
+CHARZ    = CHARB+$04
+
+CHAR27   = CHARB+$04    ; [
+CHAR28   = CHARB+$04    ; \
+CHAR29   = CHARB+$04    ; ]
+CHAR30   = CHARB+$04    ; ^
+CHAR31   = CHARB+$04    ; _
+CHAR32   = CHARB+$04    ; SPACE
+
+CHAR33   = CHARB+$04    ; !
+CHAR34   = CHARB+$04    ; "
+CHAR35   = CHARB+$04    ; #
+CHAR36   = CHARB+$04    ; $
+CHAR37   = CHARB+$04    ; %
+CHAR38   = CHARB+$04    ; &
+CHAR39   = CHARB+$04    ; '
+CHAR40   = CHARB+$04    ; (
+CHAR41   = CHARB+$04    ; )
+CHAR42   = CHARB+$04    ; *
+CHAR43   = CHARB+$04    ; +
+CHAR44   = CHARB+$04    ; ,
+CHAR45   = CHARB+$04    ; -
+CHAR46   = CHARB+$04    ; .
+CHAR47   = CHARB+$04    ; /
+CHAR48   = CHARB+$04    ; 0
+CHAR49   = CHARB+$04    ; 1
+CHAR50   = CHARB+$04    ; 2
+CHAR51   = CHARB+$04    ; 3
+CHAR52   = CHARB+$04    ; 4
+CHAR53   = CHARB+$04    ; 5
+CHAR54   = CHARB+$04    ; 6
+CHAR55   = CHARB+$04    ; 7

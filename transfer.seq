@@ -1,0 +1,1 @@
+TRASFER  LDX #$00         LDY #$00         STX T1+2         STY T1+5         LDX #$00         LDY #$00T1       LDA $3000,Y         STA $0400,Y         INY         BNE T1         INC T1+2         INC T1+5         INX         CPX #$04         BNE T1-2         RTS

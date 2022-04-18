@@ -1,0 +1,1 @@
+SPACE    LDA #<SPTEXT         LDY #>SPTEXT         JSR $AB1ESPKEY    JSR $FFE4         BEQ *-3         RTS;---------------------------------------SPTEXT   .BYTE $0D         .TEXT "›ÐRESS ÁNY ËEY.";---------------------------------------

@@ -1,0 +1,1 @@
+READJOY2 LDA $DC00         CMP #$7D         BEQ DOWN         CMP #$7E         BEQ UP         CMP #$7B         BEQ LEFT         CMP #$77         BEQ RIGHT         CMP #$6F         BEQ FIRE         JMP READJOY2

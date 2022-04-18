@@ -1,0 +1,1 @@
+KILLIRQ  SEI         JSR $FDA3         JSR $E5A0         JSR $E544         LDA #$00         STA $D020         STA $D021         LDA #$31         STA $0314         LDA #$EA         STA $0315         LDA #27         STA $D011         LDA #240         STA $D01A         LDA #$00         STA $D418         CLI         RTS

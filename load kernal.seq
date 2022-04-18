@@ -1,0 +1,1 @@
+LOADIT   LDA #$08         TAX         LDY #$00         JSR $FFBA         ;         LDA FLENGTH         LDX #<FPOS         LDY #>FPOS         JSR $FFBD         ;LOADLO   LDX #$00LOADHI   LDY #$00         LDA #$00         JSR $FFD5         RTS

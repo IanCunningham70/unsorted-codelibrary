@@ -1,0 +1,1 @@
+SPACE    LDA #<SPTEXT         LDY #>SPTEXT         JSR $AB1ESPKEY    JSR $FFE4         CMP #" "         BNE SPKEY         RTS;---------------------------------------SPTEXT   .BYTE $0D,$0D         .TEXT "PRESS SPACE."         .BYTE $00;---------------------------------------

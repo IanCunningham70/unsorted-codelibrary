@@ -1,0 +1,1 @@
+         ; ÅRROR ÃHANNEL ÒEADER.ERROR    LDA #$08         STA $BA         JSR $FFB4         LDA #$6F         STA $B9         JSR $FF96ERROR00  JSR $FFA5         JSR $FFD2         CMP #$0D         BNE ERROR00         JSR $FFAB         LDA #$0D         JSR $FFD2         RTS
